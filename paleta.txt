@@ -1,0 +1,8 @@
+Arquivo com paleta de cores do site
+
+Cor logo: #F1616D / #F1616E (pink magentudo do capeta)
+Cor Fundo Menu: #6EC9C8 (verde hipster)
+Cor subtítulo header: #B7E4E4 (verde hipster nhé)
+Cor Texto Menu: #FFF
+Cor de itens ativos: #41484c
+Cor de on hover: #41484c (mesma acima)
