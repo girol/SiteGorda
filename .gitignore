@@ -1,5 +1,4 @@
 *~
 /nbproject/private/
-/mail/config.php
-/mail/inc/mailconfig.php
-/mail/stubs/
+/www/mail/inc/mailconfig.php
+/www/mail/stubs/
