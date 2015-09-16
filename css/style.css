@@ -88,7 +88,7 @@
 		{
 			margin: 1em 0 0 0;
 		}
-
+            
 	footer
 	{
 		margin: 2em 0 0 0;
@@ -120,7 +120,7 @@
 
 		a:hover
 		{
-			color: #FFF;
+			color: #6EC9C8;
 			border-bottom-color: rgba(255,255,255,0);
 		}
 
@@ -190,7 +190,7 @@
 			}
 
 	/* Image */
-
+    
 		.image
 		{
 			display: inline-block;
@@ -300,7 +300,9 @@
 				}
 
 	/* Form */
-
+        .contato{
+            margin-bottom: 1em;
+        }
 		form
 		{
 		}
@@ -772,7 +774,7 @@
 			#main > section.one
 			{
 				background-color: #81918E;
-				background-image: url('../images/banner.jpg');
+				/*background-image: url('../images/banner.jpg');*/
 			}
 
 			#main > section.two
