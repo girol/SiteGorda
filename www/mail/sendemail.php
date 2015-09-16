@@ -2,7 +2,7 @@
 
 header('Content-Type: text/html; charset=utf-8');
 
-include './stubs/post_inputs.php';
+//include './stubs/post_inputs.php';
 
 
 if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])):
@@ -24,21 +24,19 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
 
 
     // Stub
-    echo $mail->Body;
-    echo '<hr>Email enviado!';
+//    echo $mail->Body;
+//    echo '<hr>Email enviado!';
+//    var_dump($mail);
 
-
-//if(!$mail->send()) {
-//    echo 'Message could not be sent.';
-//    echo 'Mailer Error: ' . $mail->ErrorInfo;
-//} else {
-//    echo 'Message has been sent';
-//}
+    if (!$mail->send()):
+        header('location:mailsent.php?err=1');
+        // Implementar
+        //echo 'Erro-> ' . $mail->ErrorInfo;
+    else:
+        header('location:mailsent.php?err=0');
+    endif;
 
 else:
-    echo "há coisas não preenchidas";
-    echo "hadouken";
-    
-        
-    
+    //echo "há coisas não preenchidas";
+    header('location:../index.html');
 endif;
